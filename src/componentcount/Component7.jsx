@@ -97,7 +97,8 @@ export const Component7 = () => {
     <>
     <Maincom  title={" Value Types vs Reference Types"}
   game={"https://html-classic.itch.zone/html/2170194/IsleOfLight/index.html?v=1591301915"}
-  url={'https://videoconsole-lac.vercel.app/'}
+  
+  url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/1190d5b71c1de1cd98/8db84f8890e7595e'}
     steps={['Value types and reference types are two fundamental classifications of data types in C# and many other programming languages. Understanding the differences between them is crucial for writing efficient and bug-free code.',
     'In "Memory Island," players embark on an adventure to explore a mysterious island filled with treasures and challenges. Each aspect of the island landscape and inhabitants serves as an analogy for value types and reference types in programming.',
 'Reference Types:In contrast, the inhabitants of the island, such as NPCs (non-player characters) and creatures, represent reference types. These entities exist independently of the player and are accessed through references rather than directly interacted with. When players encounter an NPC or creature, they communicate with them through dialogue or actions, much like interacting with reference types in programming.',

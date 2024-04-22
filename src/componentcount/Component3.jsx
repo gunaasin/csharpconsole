@@ -89,7 +89,7 @@ export const Component3 = () => {
     <>
     <Maincom  title={"Concurrency "}
     game={"https://concoren.vercel.app/"}
-    url={'https://videoconsole-lac.vercel.app/'}
+    url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/7090d5b71c1de1c0f9/81e4627c5552f9e0'}
      steps={['Concurrency and parallelism are important concepts in C# (and programming in general) for improving performance and scalability by leveraging multiple threads or processes to execute tasks concurrently. While they are related concepts, they address different aspects of concurrent programming',
      ' use the using System.Threading Concurrency refers to the ability of a system to handle multiple tasks or processes simultaneously, making progress on more than one task during the same period.',
      'In C#, concurrency is typically achieved using multiple threads. Threads allow different parts of a program to execute independently, allowing for tasks to be performed concurrently.',

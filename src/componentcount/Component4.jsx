@@ -145,7 +145,8 @@ export const Component4 = () => {
     answer={answer}
   
     game={"https://html-classic.itch.zone/html/3198875/index.html"}
-    url={'https://videoconsole-lac.vercel.app/'}
+    
+    url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/7990d5b71c1de2c6f0/4afffb692d922b5e'}
        steps={['Game Concept: In our game, the player controls a hero character who must navigate through a dungeon filled with different types of enemies. Each enemy has its own unique attributes, such as health, damage, and movement speed, which are defined using attributes. Reflection is used to dynamically spawn and control these enemies based on their attributes.',
        'Enemy Attributes: We define custom attributes to specify the properties of each enemy type. For example, we may have attributes like [EnemyHealth], [EnemyDamage], and [EnemySpeed].',
        'These attributes are applied to different enemy classes to define their characteristics.',

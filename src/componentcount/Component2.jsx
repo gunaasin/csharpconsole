@@ -80,10 +80,12 @@ const codesnip = {
       `}
   return (
     <>
-      <Maincom title={"Scope"}
+      <Maincom title={"Exception Handling"}
 
        game={'https://gunaasin.github.io/dataintegration/ '}
-       url={'https://videoconsole-lac.vercel.app/?url=https://www.youtube.com/embed/_Ss42Vb1SU4'}
+       
+       
+       url={'https://videoconsole-lac.vercel.app/?url=https://videos.sproutvideo.com/embed/ea90d5b71c1de1c263/224bb00191e157bb'}
        
         steps={['Exception handling is a programming concept used to manage unexpected or exceptional conditions that may occur during the execution of a program. These conditions, often referred to as exceptions, can range from runtime errors to special situations that require special handling, such as user input errors, file I/O errors, or network failures.',
         'We have a Divide method that attempts to divide two integers. If the denominator is zero, a DivideByZeroException is thrown.',
