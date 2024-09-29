@@ -45,32 +45,28 @@ const CodeEditor = (prop) => {
 
   return (
     <Box>
-      <HStack spacing={4}>
-        <Box w="100%">
-          {/* <LanguageSelector language={language} onSelect={onSelect} /> */}
+      
+        <Box >
           <Editor
             options={{
               minimap: {
                 enabled: false,
               },
             }}
-            height="55vh"
+            height="60vh"
+            width="36vw"
             theme="vs-dark"
             language={language}
             defaultValue={prop.codesnip[language]}
             onMount={onMount}
             value={value}
             onChange={handleChange}
-          // onChange={(value) => setValue(value)}
+
           />
         </Box>
         <Output editorRef={editorRef} language={language} runcode={runCode} />
-        
-      
-        <div className="emptycom"><Game runCodeData={runCodeData}/></div>
-        <ChildComponent  runCodeData={runCodeData}/>
-
-      </HStack>
+        <Box className="emptycom"><Game runCodeData={runCodeData} /></Box>
+        <ChildComponent runCodeData={runCodeData} />
     </Box>
   );
 };

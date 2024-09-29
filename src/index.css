@@ -1,4 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 body{
-    overflow: hidden;
     scroll-behavior:smooth ;
+    overflow-x:hidden;
+}
+::selection {
+    background-color: #b90ef7;
+    color: #0f0a18; 
 }
